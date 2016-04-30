@@ -15,7 +15,7 @@ public class PortoClickContexto {
 		this.driver = driver;
 		urlBase = "http://www.portoclick.com.br/";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		wait = new WebDriverWait(driver, 30);
+		wait = new WebDriverWait(driver, 100);
 	}
 	
 	public void sair(){

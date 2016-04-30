@@ -38,7 +38,7 @@ public class MenuNavegacaoSuperior {
 	}
 	
 	public static void estaNaSobre() {
-		assertEquals(contexto + "#section-about", MenuNavegacaoSuperior.mapearUrlQueSeEncontra());
+		assertEquals(contexto.urlBase + "#section-about", MenuNavegacaoSuperior.mapearUrlQueSeEncontra());
 	}
 	
 	public static void clicarHome() {
