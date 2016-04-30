@@ -1,5 +1,5 @@
 package classes;
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 import org.openqa.selenium.By;
 
 import com.thoughtworks.selenium.webdriven.JavascriptLibrary;

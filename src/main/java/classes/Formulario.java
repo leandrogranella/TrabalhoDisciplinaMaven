@@ -1,11 +1,9 @@
 package classes;
 import static org.junit.Assert.assertEquals;
 
-import java.util.Arrays;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.thoughtworks.selenium.webdriven.JavascriptLibrary;
 
@@ -45,7 +43,7 @@ public class Formulario {
 	}
 	
 	public static void verificaMensagemQuandoCampoDoEmailNaoFoiPreenchido() {
-		 assertEquals("Por favor, digite um e-mail válido", contexto.driver.findElement(By.cssSelector("#contact-form > form > div:nth-child(2) > div")).getText());
+		 assertEquals("Por favor, digite um e-mail vÃ¡lido", contexto.driver.findElement(By.cssSelector("#contact-form > form > div:nth-child(2) > div")).getText());
 	}
 	
 	public static void preencheCamposDeEmailEMensagem() {
@@ -84,7 +82,7 @@ public class Formulario {
 		    //WebDriverWait wait = new WebDriverWait(driver,);
 		    
 		    
-		   assertEquals("Escreva algo para nós", contexto.driver.findElement(By.xpath("//*[@id='contact-form']/form/div[3]/div")).getText());
+		   assertEquals("Escreva algo para nÃ³s", contexto.driver.findElement(By.xpath("//*[@id='contact-form']/form/div[3]/div")).getText());
 	}
 	
 	public static void preencheTodosOsCampos() {
